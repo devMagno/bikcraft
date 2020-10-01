@@ -1,0 +1,46 @@
+/* VARIÁVEIS */
+:root {
+  --main-yellow: #FEC63E;
+  --black: #000;
+  --white: #FFF;
+}
+
+
+/* ESTILOS GERAIS */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--main-yellow);
+  padding: 9px 0;
+  height: 80px;
+}
+
+.header_menu {
+  text-align: right;
+  margin-top: 21px;
+}
+.header_menu ul li {
+  display: inline;
+  margin-left: 20px;
+}
+.header_menu ul li a {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  transition: color .3s;
+}
+.header_menu ul li a:hover {
+  color: var(--white);
+}
+
+/* INTRODUÇÃO */
