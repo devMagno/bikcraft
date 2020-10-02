@@ -77,6 +77,9 @@ p {
   padding: 10px 0;
   transition: color .3s;
 }
+.header_menu ul li a:after{
+  content: ' ';
+}
 .header_menu ul li a:hover {
   color: var(--white);
 }
@@ -161,4 +164,32 @@ p {
 }
 .call p {
   margin-bottom: 20px;
+}
+
+/* PORTFÓLIO */
+.portfolio {
+  width: 100%;
+  background-color: var(--black);
+  padding: 40px 0;
+}
+.portfolio .subtitle {
+  color: var(--main-yellow);
+}
+.portfolio .subtitle::after {
+  background-color: var(--main-yellow);
+}
+
+.portfolio_items li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .btn:hover {
+  color: var(--black);
+}
+
+.portfolio .call p {
+  color: var(--white);
+}
+.grid-8, .grid-16 {
+  margin-bottom: -4px;
 }
