@@ -44,3 +44,42 @@ body {
 }
 
 /* INTRODUÇÃO */
+.intro {
+  width: 100%;
+  height: 380px;
+  background: url(../img/bg.jpg) no-repeat center;
+  background-size: cover;
+  margin-top: 80px;
+  text-align: center;
+  color: var(--white);
+}
+
+.intro h1, .intro blockquote cite {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.intro h1{
+  padding-top: 80px;
+  font-size: 48px;
+}
+.intro .external-quote {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.intro .external-quote cite {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  font-style: normal;
+}
+
+.intro .external-quote p {
+  font-style: italic;
+}
+.intro .external-quote p::after, .intro .external-quote p::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--white);
+  margin: 14px auto 10px auto;
+}
