@@ -125,3 +125,34 @@ p {
   background-color: var(--white);
   margin: 14px auto 10px auto;
 }
+
+/* PRODUTOS */
+.products {
+  padding: 60px 0;
+}
+.products_list li {
+  background-color: var(--main-yellow);
+  text-align: center;
+}
+.products_list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.products_list li h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 2px auto;
+  background-color: var(--black);
+}
+.products_list li p {
+  padding: 10px 20px 20px 20px;
+}
+.products_list_icon {
+  background-color: var(--black);
+  padding: 30px;
+}
