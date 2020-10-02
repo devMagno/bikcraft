@@ -21,8 +21,17 @@ p {
   letter-spacing: 0.7px;
   text-transform: uppercase;
   padding: 10px 22px;
+  border: 4px solid var(--black);
+  color: var(--black);
+  transition: all 0.2s ease-in-out;
+}
+.btn-yellow {
   border: 4px solid var(--main-yellow);
   color: var(--main-yellow);
+}
+.btn-yellow:hover {
+  background: var(--main-yellow);
+  color: var(--white);
 }
 
 /* HEADER */
@@ -79,6 +88,7 @@ p {
 .intro .external-quote {
   max-width: 300px;
   margin: 0 auto;
+  margin-bottom: 52px;
 }
 .intro .external-quote cite {
   font-size: 14px;
