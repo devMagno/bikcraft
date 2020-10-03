@@ -248,3 +248,51 @@ img {
   background-size: cover;
   padding-top: 40px
 }
+
+/* RODAPÉ */
+.footer-black {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px 0 30px 0;
+  width: 100%;
+}
+.footer-black h3 {
+  color: var(--main-yellow);
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.footer-black h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 6px 0 15px 0;
+  background-color: var(--main-yellow);
+}
+
+.footer_history {
+  padding-right: 40px;
+}
+
+.footer_contact ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer_social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer_social ul li a {
+  display: block;
+  border: 3px solid var(--main-yellow);
+  padding: 8px;
+  transition: border-color 0.3s;
+}
+.footer_social ul li a:hover{
+  border-color: var(--white);
+}
