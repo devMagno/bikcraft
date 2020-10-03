@@ -248,6 +248,9 @@ img {
   background-size: cover;
   padding-top: 40px
 }
+.break .external-quote {
+  max-width: 400px;
+}
 
 /* RODAPÉ */
 .footer-black {
@@ -262,7 +265,6 @@ img {
   font-size: 18px;
   letter-spacing: 0.9px;
   text-transform: uppercase;
-  margin-top: 20px;
 }
 .footer-black h3::after {
   content: '';
@@ -290,7 +292,7 @@ img {
 .footer_social ul li a {
   display: block;
   border: 3px solid var(--main-yellow);
-  padding: 8px;
+  padding: 10px;
   transition: border-color 0.3s;
 }
 .footer_social ul li a:hover{
