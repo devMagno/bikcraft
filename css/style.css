@@ -193,4 +193,44 @@ img {
 .portfolio .call p {
   color: var(--white);
 }
+
+/* QUALIDADE */
+.quality {
+  padding: 60px 0;
+}
+.quality::after {
+  content: '';
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url(../img/linhas.svg);
+  position: absolute;
+  top: 209px;
+  right: 162px;
+  z-index: -1;
+}
+.quality img {
+  margin: 0 auto;
+}
+.quality_list {
+  padding-top: 20px;
+}
+.quality_list li {
+  text-align: center;
+  padding: 0 40px;
+}
+.quality_list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.quality_list li h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 6px auto;
+  background-color: var(--black);
 }
