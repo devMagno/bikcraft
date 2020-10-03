@@ -98,7 +98,7 @@ img {
   color: var(--white);
 }
 
-.intro h1, .intro blockquote cite {
+.intro h1, blockquote cite {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -106,21 +106,23 @@ img {
   padding-top: 80px;
   font-size: 48px;
 }
-.intro .external-quote {
+.external-quote {
+  text-align: center;
+  color: var(--white);
   max-width: 300px;
   margin: 0 auto;
   margin-bottom: 52px;
 }
-.intro .external-quote cite {
+.external-quote cite {
   font-size: 14px;
   letter-spacing: 0.7px;
   font-style: normal;
 }
 
-.intro .external-quote p {
+.external-quote p {
   font-style: italic;
 }
-.intro .external-quote p::after, .intro .external-quote p::before {
+.external-quote p::after, .external-quote p::before {
   content: "";
   display: block;
   width: 60px;
@@ -236,4 +238,13 @@ img {
   height: 3px;
   margin: 6px auto;
   background-color: var(--black);
+}
+
+/* QUEBRA */
+.break {
+  width: 100%;
+  height: 220px;
+  background: url(../img/bg-footer.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 40px
 }
