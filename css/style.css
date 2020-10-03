@@ -296,3 +296,14 @@ img {
 .footer_social ul li a:hover{
   border-color: var(--white);
 }
+
+/* COPYRIGHT */
+.copyright {
+  width: 100%;
+  background-color: var(--main-yellow);
+  padding: 20px 0;
+}
+.copyright p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--black);
+}
