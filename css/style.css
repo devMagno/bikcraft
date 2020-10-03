@@ -133,6 +133,9 @@ img {
 .products {
   padding: 60px 0;
 }
+.products img {
+  padding: 20px;
+}
 .products_list li {
   background-color: var(--main-yellow);
   text-align: center;
