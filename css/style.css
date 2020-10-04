@@ -130,6 +130,30 @@ img {
   background-color: var(--white);
   margin: 14px auto 10px auto;
 }
+/* INTRODUÇÃO INTERNA */
+.internal-intro {
+  height: 160px;
+  width: 100%;
+  margin-top: 80px;
+  background-size: cover;
+  color: var(--white);
+  text-align: center;
+  padding-top: 40px;
+}
+
+.internal-intro h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+.internal-intro h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--white);
+  margin: 5px auto 11px auto;
+}
 
 /* PRODUTOS */
 .products {
