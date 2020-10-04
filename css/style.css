@@ -243,6 +243,7 @@ img {
 }
 .quality_list {
   padding-top: 20px;
+  overflow: hidden;
 }
 .quality_list li {
   text-align: center;

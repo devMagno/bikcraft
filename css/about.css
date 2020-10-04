@@ -5,7 +5,34 @@
 .mission_about {
   padding-top: 60px;
 }
+.mission_about p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+}
+.mission_about ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.internal-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.internal-subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--black);
+}
 
 .grid-16 img {
-  padding-top: 50px;
+  padding-top: 20px;
 }
