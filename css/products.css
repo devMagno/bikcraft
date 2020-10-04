@@ -2,3 +2,64 @@
   background: url("../img/bg-produtos.jpg") no-repeat center;
   background-size: cover;
 }
+
+.products_item {
+  padding-top: 60px;
+}
+.products_item h2 {
+  color: var(--white);
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  margin-bottom: -55px;
+}
+
+.products_item h2::after, .products_item h2::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--white);
+  margin: 6px auto 8px auto;
+}
+
+.product_icon {
+  background: var(--black);
+  padding: 70px 0;
+}
+.product_icon img {
+  margin: 0 auto;
+}
+
+.product_info {
+  background-color: var(--black);
+  max-height: 280px;
+}
+.product_info p {
+  color: var(--white);
+  padding: 27px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.product_info ul li {
+  background: var(--main-yellow);
+  color: var(--black);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  width: 229px;
+  height: 49px;
+  padding: 15px 0;
+}
+.product_info ul li:nth-child(1), .product_info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+.product_info ul li:nth-child(odd) {
+  margin-right: 2px;
+}
