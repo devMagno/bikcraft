@@ -86,6 +86,9 @@ img {
 .header_menu ul li a:hover {
   color: var(--white);
 }
+.header_menu ul li a.menu_active {
+  color: var(--white);
+}
 
 /* INTRODUÇÃO */
 .intro {
