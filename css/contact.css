@@ -87,3 +87,7 @@
 .contact_data ul li a:hover{
   border-color: var(--black);
 }
+
+.map-photo {
+  margin-bottom: 60px;
+}
