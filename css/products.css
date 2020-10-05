@@ -36,11 +36,11 @@
 
 .product_info {
   background-color: var(--black);
-  max-height: 280px;
+  height: 280px;
 }
 .product_info p {
   color: var(--white);
-  padding: 27px;
+  padding: 27.5px;
   font-size: 18px;
   line-height: 25px;
 }
