@@ -1,0 +1,89 @@
+.internal-contact {
+  background: url("../img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.contact {
+  color: var(--black);
+  padding: 40px 0 60px 0;
+}
+.contact_form {
+  padding-right: 60px;
+}
+.contact_form label {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+.contact_form input, .contact_form textarea {
+  background: none;
+  border: 3px solid var(--main-yellow);
+  color: var(--black);
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 7px 10px;
+  width: 100%;
+}
+.contact_form textarea {
+  resize: vertical;
+  min-height: 40px;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+
+.contact_form button.btn {
+  background-color: var(--white);
+  padding: 10px 40px;
+}
+.contact_form button.btn:hover {
+  color: var(--white);
+  background-color: var(--main-yellow);
+  cursor: pointer;
+}
+
+.contact_data {
+  color: var(--black);
+}
+.contact_data h3 {
+  color: var(--main-yellow);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.contact_data span {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+.contact_data span:nth-child(3) {
+  margin-bottom: 20px;
+}
+.contact_data span:nth-child(5) {
+  margin-bottom: 40px;
+}
+
+.contact_data p {
+  margin: 20px 0 10px 0;
+}
+
+.contact_data ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.contact_data ul li a {
+  display: block;
+  border: 3px solid var(--main-yellow);
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+.contact_data ul li a:hover{
+  border-color: var(--black);
+}
