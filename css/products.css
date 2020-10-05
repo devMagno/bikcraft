@@ -63,3 +63,55 @@
 .product_info ul li:nth-child(odd) {
   margin-right: 2px;
 }
+
+.subtitle {
+  color: var(--main-yellow);
+}
+.subtitle::after {
+  background: var(--main-yellow);
+}
+
+.orcamento {
+  background: var(--black);
+  color: var(--white);
+  width: 100%;
+  margin-top: 60px;
+  padding: 30px 0;
+}
+.form {
+  padding-right: 60px;
+}
+.form label {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+.form input, .form textarea {
+  background: none;
+  border: 3px solid var(--main-yellow);
+  color: var(--white);
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 7px 10px;
+  width: 100%;
+}
+.form textarea {
+  resize: vertical;
+  min-height: 40px;
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+
+.form button.btn {
+  background-color: black;
+  padding: 10px 40px;
+}
+.form button.btn:hover {
+  color: var(--black);
+  background-color: var(--main-yellow);
+}
