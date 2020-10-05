@@ -114,4 +114,40 @@
 .form button.btn:hover {
   color: var(--black);
   background-color: var(--main-yellow);
+  cursor: pointer;
+}
+
+.data {
+  color: var(--white);
+}
+.data h3 {
+  color: var(--main-yellow);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.data span {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+.data span+span {
+  margin-bottom: 40px;
+}
+
+.data p {
+  margin: 20px 0 10px 0;
+}
+.data ul {
+  padding-right: 60px;
+}
+.data ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+.data ul li:nth-child(odd) {
+  background-color: #1d1d1d;
 }
