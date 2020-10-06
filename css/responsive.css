@@ -147,9 +147,19 @@
 	.data ul {
 		padding-right: 0;
 	}
-	
 	/* PORTFOLIO */
 	.internal-portfolio {
 		background: url("../img/bg-portfolio-mobile.jpg");
 	}
+
+
+	/* CONTATO */
+	.internal-contact {
+		background: url("../img/bg-contato-mobile.jpg") no-repeat center;
+	}
+	.contact_form {
+		padding-right: 0;
+		margin-bottom: 40px;
+	}
+
 }
