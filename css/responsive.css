@@ -1,5 +1,18 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+	.quality::after {
+		right: 66px;
+	}
+	.quality_list li {
+		padding: 0 10px
+	}
 
+	.footer_social ul li a {
+		padding: 6px;
+	}
+	.footer_social ul li a img {
+		height: 26px;
+		width: 26px;
+	}
 }
 
 @media only screen and (max-width: 787px) { 
@@ -37,9 +50,29 @@
 		background: url(../img/bg-mobile.jpg) no-repeat center;
 	}
 	.intro h1 {
-		padding: 10px;
+		padding: 20px;
+		font-size: 36px;
 	}
 	.external-quote {
-		margin-bottom: 30px;
+		margin-bottom: 60px;
+	}
+
+	.call {
+		padding-top: 10px;
+	}
+	.call p {
+		margin-bottom: 20px;
+	}	
+
+	.portfolio_items li {
+		margin: 20px 0;
+	}
+
+	.quality::after {
+		display: none;
+	}
+	.quality_list	 li {
+		padding: 0;
+		margin: 0 0 20px 0;
 	}
 }
