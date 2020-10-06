@@ -339,27 +339,27 @@ img {
 }
 
 /* SLIDE JS */
-[data-slide] {
+.js [data-slide] {
   position: relative;
 }
-[data-slide] > * {
+.js [data-slide] > * {
   position: absolute;
   top: 0px;
   opacity: 0;
 }
-[data-slide] > .active {
+.js [data-slide] > .active {
   position: relative;
   opacity: 1;
   transition: opacity 500ms;
   z-index: 1;
 }
-[data-slide-nav] {
+.js [data-slide-nav] {
   display: block;
   justify-content: center;
   text-align: center;
   margin-top: 20px;
 }
-[data-slide-nav] > button {
+.js [data-slide-nav] > button {
   outline: none;
   display: inline-block;
   width: 12px;
@@ -372,6 +372,9 @@ img {
   text-indent: -100px;
   overflow: hidden;
 }
-[data-slide-nav] > button.active {
+.js [data-slide-nav] > button:hover {
+  cursor: pointer;
+}
+.js [data-slide-nav] > button.active {
   background: var(--main-yellow);
 }
