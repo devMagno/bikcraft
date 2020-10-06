@@ -13,6 +13,28 @@
 		height: 26px;
 		width: 26px;
 	}
+
+	/* PRODUTOS */
+	.products_item h2 {
+		top: -150px;
+		margin-bottom: -55px;
+	}
+	.product_icon {
+		padding: 41px 0;
+	}
+
+	.product_info p {
+		font-size: 14px;
+		line-height: 20px;
+		height: 122px;
+		padding: 15px 20px;
+		margin-bottom: 8px;
+	}
+	.product_info ul li {
+		font-size: 16px;
+		width: 181px;
+		height: 45px;
+	}
 }
 
 @media only screen and (max-width: 787px) { 
