@@ -1,4 +1,7 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+	.header a img {
+		max-width: none;
+	}
 	.quality::after {
 		right: 66px;
 	}
@@ -147,6 +150,7 @@
 	.data ul {
 		padding-right: 0;
 	}
+	
 	/* PORTFOLIO */
 	.internal-portfolio {
 		background: url("../img/bg-portfolio-mobile.jpg");
