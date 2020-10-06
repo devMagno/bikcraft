@@ -44,6 +44,9 @@
 	.header_menu ul li a:hover {
 		border-color: var(--white);
 	}
+	.header_menu ul li a.menu_active {
+		border-color: var(--white);
+	}
 
 	.intro {
 		margin-top: 0;
