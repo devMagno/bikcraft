@@ -17,6 +17,7 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 .btn {
   font-size: 14px;
