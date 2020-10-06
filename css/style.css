@@ -378,3 +378,25 @@ img {
 .js [data-slide-nav] > button.active {
   background: var(--main-yellow);
 }
+
+.js [data-anime] {
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+.fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+.fadeInUp {
+  transform: translate3d(0,20px,0);
+}
+.fadeInRight {
+  transform: translate3d(20px,0,0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px,0,0);
+}
