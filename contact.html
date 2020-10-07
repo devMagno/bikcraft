@@ -38,16 +38,16 @@
 
   <section class="contact">
     <div class="container">
-      <form id="form_orcamento" class="contact_form grid-8 fadeInLeft" data-anime="1000">
+      <form id="form_orcamento" class="contact_form grid-8 fadeInLeft formphp" data-anime="1000" method="POST" action="enviar-sendgrid.php">
         <label for="name">Nome</label>
-        <input type="text" id="name">
+        <input type="text" id="name" name="nome" required>
         <label for="email">E-mail</label>
-        <input type="email" id="email">
+        <input type="email" id="email" name="email" required>
         <label for="tel">Telefone</label>
-        <input type="tel" id="tel">
+        <input type="tel" id="tel" name="tel" required>
         <label for="msg">Mensagem</label>
-        <textarea id="msg" cols="30" rows="5"></textarea>
-        <button type="submit" class="btn">Enviar</button>
+        <textarea id="msg" cols="30" rows="5" name="msg" required></textarea>
+        <button type="submit" class="btn" id="send" name="send">Enviar</button>
       </form>
       <div class="contact_data grid-8 fadeInLeft" data-anime="1100">
         <h3>Dados</h3>
