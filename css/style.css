@@ -400,3 +400,9 @@ img {
 .fadeInLeft {
   transform: translate3d(-20px,0,0);
 }
+
+.hidden {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
