@@ -406,3 +406,13 @@ img {
   height: 0px;
   position: absolute;
 }
+
+#form-error {
+  color: #DC3545;
+}
+#form-success {
+  color: #28A745;
+}
+#form-error h2, #form-success h2 {
+  font-weight: bold;
+}
