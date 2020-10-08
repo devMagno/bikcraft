@@ -126,7 +126,6 @@ O passado volta para lembrarmos o que devemos fazer no futuro. A Bikcraft Retrô
   <section class="orcamento">
     <div class="container">
       <h2 class="subtitle">Orçamento</h2>
-    <div class="container">
       <form id="form_orcamento" class="form grid-8 formphp" method="POST" action="enviar-sendgrid.php">
         <label for="name">Nome</label>
         <input type="text" id="name" name="nome" required>
@@ -134,10 +133,10 @@ O passado volta para lembrarmos o que devemos fazer no futuro. A Bikcraft Retrô
         <input type="email" id="email" name="email" required>
         <label for="tel">Telefone</label>
         <input type="tel" id="tel" name="tel" required>
-        <label for="hidden" class="hidden">Se você não é um robô, deixe em branco</label>
-        <input type="text" name="leaveBlank" class="hidden">
-        <label for="hidden" class="hidden">Se você não é um robô, não mude este campo</label>
-        <input type="text" name="leaveBlank" class="hidden" value="http://">
+        <label for="leaveBlank1" class="hidden">Se você não é um robô, deixe em branco</label>
+        <input type="text" id="leaveBlank1" name="leaveBlank1" class="hidden">
+        <label for="leaveBlank2" class="hidden">Se você não é um robô, não mude este campo</label>
+        <input type="text" id="leaveBlank2" name="leaveBlank2" class="hidden" value="http://">
         <label for="spec">Especificações</label>
         <textarea id="spec" cols="30" rows="5" name="spec" required></textarea>
         <button type="submit" class="btn" id="send" name="send">Enviar</button>
