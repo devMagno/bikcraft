@@ -11,8 +11,8 @@ O projeto **Bikcraft** foi desenvolvido durante o curso de **Web Design Completo
 ## 🚀 Tecnologias e ferramentas utilizadas
 - **HTML5**
 - **CSS3**
-- **JavaScript** (com os plugins SimpleSlide, SimpleAnime e SimpleForm)
-- **PHP** (envio de e-mail com SendGrid)
+- **JavaScript** (com os plugins [SimpleSlide](https://github.com/origamid/simple-slide), [SimpleAnime](https://github.com/origamid/simple-anime) e [SimpleForm](https://github.com/origamid/simple-form))
+- **PHP** (envio de e-mail com [SendGrid](https://sendgrid.com/))
 - **Adobe XD** (para o wireframe e design do projeto)
 
 ---
