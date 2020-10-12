@@ -23,4 +23,4 @@ O projeto **Bikcraft** foi desenvolvido durante o curso de **Web Design Completo
 Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/bikcraft/).
 
 ---
-**Desenvolvido com 💛 por Guilherme Magno.**
+**Desenvolvido com 💛 por [Guilherme Magno](https://github.com/devmagno/).**
