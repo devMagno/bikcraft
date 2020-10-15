@@ -318,13 +318,21 @@ img {
   margin-right: 10px;
 }
 .footer_social ul li a {
-  display: block;
+  display: flex;
+  font-size: 34px;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  justify-content: center;
   border: 3px solid var(--main-yellow);
+  color: var(--main-yellow);
   padding: 10px;
-  transition: border-color 0.3s;
+  transition: all 0.3s;
 }
 .footer_social ul li a:hover{
-  border-color: var(--white);
+  color: var(--black);
+  background: var(--main-yellow);
+  border: 3px solid var(--main-yellow);
 }
 
 /* COPYRIGHT */
