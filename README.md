@@ -23,4 +23,11 @@ O projeto **Bikcraft** foi desenvolvido durante o curso de **Web Design Completo
 Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/bikcraft/).
 
 ---
+
+## 📝 Licença
+
+O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/devMagno/bikcraft/blob/master/LICENSE).
+
+---
+
 **Desenvolvido com 💛 por [Guilherme Magno](https://github.com/devmagno/).**
