@@ -4,7 +4,7 @@
 </p>
 
 ## 📖 Sobre   
-O projeto **Bikcraft** foi desenvolvido durante o curso de **Web Design Completo** da **Origamid**. Durante o curso, aprendemos todos os princípios básicos de **UI Design** e **codificação**, colocando todos os conceitos em prática desenvolvendo **desde o wireframe até o design** e enfim, o **código do site** da Bikcraft, uma empresa que vende bicicletas personalizadas feitas sob medida.   
+O projeto **Bikcraft** foi desenvolvido durante o curso de **Web Design Completo** da **Origamid**. Durante o curso, aprendemos todos os princípios básicos de **UI Design** e **codificação**, colocando todos os conceitos em prática desenvolvendo **desde o wireframe até o design** e por fim, o **código do site** da **Bikcraft** uma empresa que vende bicicletas personalizadas feitas sob medida, onde desenvolvemos conceitos como **HTML semântico**, **otimização** de imagens e arquivos CSS, **SEO** e utilização do **Google Analytics**.   
 
 ---
 
@@ -21,6 +21,19 @@ O projeto **Bikcraft** foi desenvolvido durante o curso de **Web Design Completo
 [![](https://i.imgur.com/qCijr3M.png)](https://devmagno.github.io/bikcraft/)   
 
 Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/bikcraft/).
+
+---
+
+## 🔧 Como executar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/devMagno/bikcraft
+
+# Entre no diretório
+cd bikcraft
+```
+Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
 ---
 
