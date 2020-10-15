@@ -79,13 +79,21 @@
   margin-top: 15px;
 }
 .contact_data ul li a {
-  display: block;
+  display: flex;
+  font-size: 34px;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  justify-content: center;
   border: 3px solid var(--main-yellow);
+  color: var(--main-yellow);
   padding: 10px;
-  transition: border-color 0.3s;
+  transition: all 0.3s;
 }
 .contact_data ul li a:hover{
-  border-color: var(--black);
+  color: var(--white);
+  background: var(--main-yellow);
+  border: 3px solid var(--main-yellow);
 }
 
 .map-photo {
