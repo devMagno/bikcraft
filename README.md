@@ -17,7 +17,7 @@ O projeto **Bikcraft** foi desenvolvido durante o curso de **Web Design Completo
 ---
 
 ## 🖥️ Demonstração
-[![](https://i.imgur.com/qCijr3M.png)](https://devmagno.github.io/bikcraft/)   
+[![Bikcraft](https://i.imgur.com/Gy5e6Tn.png "Clique para acessar o projeto")](https://devmagno.github.io/bikcraft/ "Clique para acessar o projeto")   
 
 Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/bikcraft/).
 
