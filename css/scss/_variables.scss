@@ -1,3 +1,57 @@
 $primary-color: #FEC63E;
 $black: #000;
 $white: #FFF;
+
+@mixin type-1($size) {
+  @if $size == 14 {
+    font-size: 14px;
+    line-height: 20px;
+  } 
+  @else if $size == 18 {
+    font-size: 18px;
+    line-height: 25px;
+  } 
+  @else if $size == 24 {
+    font-size: 24px;
+    line-height: 30px;
+  } 
+  @else if $size == 34 {
+    font-size: 34px;
+  } 
+  @else if $size == 34 {
+    font-size: 34px;
+  }
+  @else if $size == 36 {
+    font-size: 36px;
+  }
+  @else if $size == 48 {
+    font-size: 48px;
+  }
+}
+@mixin type-2($size) {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  @if $size == 14 {
+    font-size: 14px;
+    line-height: 20px;
+  } 
+  @else if $size == 18 {
+    font-size: 18px;
+    line-height: 25px;
+  } 
+  @else if $size == 24 {
+    font-size: 24px;
+    line-height: 30px;
+  } 
+  @else if $size == 34 {
+    font-size: 34px;
+  } 
+  @else if $size == 34 {
+    font-size: 34px;
+  }
+  @else if $size == 36 {
+    font-size: 36px;
+  }
+  @else if $size == 48 {
+    font-size: 48px;
+  }
+}
