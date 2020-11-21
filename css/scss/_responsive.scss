@@ -27,8 +27,7 @@
 	}
 
 	.product_info p {
-		font-size: 14px;
-		line-height: 20px;
+		@include type-1(14);
 		height: 122px;
 		padding: 15px 20px;
 		margin-bottom: 8px;
@@ -79,7 +78,7 @@
 	}
 	.intro h1 {
 		padding: 20px;
-		font-size: 36px;
+		@include type-1(36);
 	}
 	.external-quote {
 		margin-bottom: 60px;
@@ -114,11 +113,10 @@
 
 	.mission_about p {
 		padding-right: 0px;
-		font-size: 14px;
-		line-height: 20px;
+		@include type-1(14);
 	}
 	.mission_about ul li {
-		font-size: 14px;
+		@include type-1(14);
 		line-height: 25px;
 	}
 	.mission_about .grid-10, .mission_about .grid-16, .mission_about .grid-6 {
@@ -134,7 +132,7 @@
 		margin-bottom: -67px;
 	}
 	.product_info p {
-		font-size: 14px;
+		@include type-1(14);
 		line-height: 20px;
 		height: auto;
 		padding: 15px 20px;

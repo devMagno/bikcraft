@@ -11,15 +11,11 @@
 }
 .costumer_quote p {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 25px;
+  @include type-2(18);
   margin-bottom: 20px;
 }
 .costumer_quote cite {
-  font-size: 18px;
-  line-height: 25px;
+  @include type-1(18);
   font-style: normal;
   font-weight: bold;
   text-transform: capitalize;

@@ -8,7 +8,7 @@
 }
 .products_item h2 {
   color: $white;
-  font-size: 36px;
+  @include type-1(36);
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -40,7 +40,7 @@
 
 .product_info p{
 	color: $white;
-	font-size: 18px;
+  @include type-1(18);
 	line-height: 25px;
 	height: 180px;
 	padding: 30px 30px;
@@ -49,7 +49,7 @@
 .product_info ul li {
 	background: $primary-color;
 	text-transform: uppercase;
-	font-size: 18px;
+  @include type-1(18);
 	line-height: 20px;
 	font-weight: bold;
 	float: left;
@@ -84,9 +84,7 @@
 }
 .form label {
   display: block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-  line-height: 25px;
+  @include type-2(18);
   margin-bottom: 4px;
 }
 .form input, .form textarea {
@@ -94,8 +92,7 @@
   border: 3px solid $primary-color;
   color: $white;
   display: block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
+  @include type-2(14);
   margin-bottom: 10px;
   outline: none;
   padding: 7px 10px;
@@ -123,16 +120,14 @@
 }
 .data h3 {
   color: $primary-color;
-  font-size: 18px;
+  @include type-1(18);
   font-weight: bold;
   letter-spacing: 0.9px;
   text-transform: uppercase;
 }
 .data span {
   display: block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-  line-height: 30px;
+  @include type-2(18);
 }
 .data span+span {
   margin-bottom: 40px;
@@ -145,8 +140,7 @@
   padding-right: 60px;
 }
 .data ul li {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
+  @include type-2(18);
   padding: 10px 15px;
 }
 .data ul li:nth-child(odd) {

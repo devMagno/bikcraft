@@ -7,21 +7,17 @@
   padding-top: 60px;
 }
 .mission_about p {
-  font-size: 18px;
-  line-height: 25px;
+  @include type-1(18);
   margin-bottom: 1em;
   padding-right: 60px;
 }
 .mission_about ul li {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-  line-height: 30px;
+  @include type-2(18);
 }
 
 .internal-subtitle {
-  font-size: 24px;
+  @include type-1(24);
   font-weight: bold;
-  line-height: 30px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
   margin-bottom: 20px;

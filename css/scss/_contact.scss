@@ -12,9 +12,7 @@
 }
 .contact_form label {
   display: block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-  line-height: 25px;
+  @include type-2(18);
   margin-bottom: 4px;
 }
 .contact_form input, .contact_form textarea {
@@ -22,8 +20,7 @@
   border: 3px solid $primary-color;
   color: $black;
   display: block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 14px;
+  @include type-2(14);
   margin-bottom: 10px;
   outline: none;
   padding: 7px 10px;
@@ -51,15 +48,14 @@
 }
 .contact_data h3 {
   color: $primary-color;
-  font-size: 18px;
+  @include type-1(18);
   font-weight: bold;
   letter-spacing: 0.9px;
   text-transform: uppercase;
 }
 .contact_data span {
   display: block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
+  @include type-2(18);
   line-height: 30px;
 }
 .contact_data span:nth-child(3) {
@@ -80,7 +76,7 @@
 }
 .contact_data ul li a {
   display: flex;
-  font-size: 34px;
+  @include type-1(34);
   height: 60px;
   width: 60px;
   align-items: center;
