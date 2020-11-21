@@ -7,7 +7,7 @@
   padding-top: 60px;
 }
 .products_item h2 {
-  color: var(--white);
+  color: $white;
   font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
@@ -22,12 +22,12 @@
   display: block;
   width: 60px;
   height: 3px;
-  background-color: var(--white);
+  background-color: $white;
   margin: 6px auto 8px auto;
 }
 
 .product_icon {
-  background: var(--black);
+  background: $black;
   padding: 70px 0;
 }
 .product_icon img {
@@ -35,11 +35,11 @@
 }
 
 .product_info {
-	background-color: var(--black);
+	background-color: $black;
 }
 
 .product_info p{
-	color: var(--white);
+	color: $white;
 	font-size: 18px;
 	line-height: 25px;
 	height: 180px;
@@ -47,7 +47,7 @@
 }
 
 .product_info ul li {
-	background: var(--main-yellow);
+	background: $primary-color;
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 20px;
@@ -66,15 +66,15 @@
 }
 
 .subtitle {
-  color: var(--main-yellow);
+  color: $primary-color;
 }
 .subtitle::after {
-  background: var(--main-yellow);
+  background: $primary-color;
 }
 
 .orcamento {
-  background: var(--black);
-  color: var(--white);
+  background: $black;
+  color: $white;
   width: 100%;
   margin-top: 60px;
   padding: 30px 0;
@@ -91,8 +91,8 @@
 }
 .form input, .form textarea {
   background: none;
-  border: 3px solid var(--main-yellow);
-  color: var(--white);
+  border: 3px solid $primary-color;
+  color: $white;
   display: block;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
@@ -113,16 +113,16 @@
   padding: 10px 40px;
 }
 .form button.btn:hover {
-  color: var(--black);
-  background-color: var(--main-yellow);
+  color: $black;
+  background-color: $primary-color;
   cursor: pointer;
 }
 
 .data {
-  color: var(--white);
+  color: $white;
 }
 .data h3 {
-  color: var(--main-yellow);
+  color: $primary-color;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.9px;

@@ -25,13 +25,13 @@ img {
   letter-spacing: 0.7px;
   text-transform: uppercase;
   padding: 10px 30px;
-  border: 3px solid var(--main-yellow);
-  color: var(--main-yellow);
+  border: 3px solid $primary-color;
+  color: $primary-color;
   transition: all 0.2s ease-in-out;
 }
 .btn:hover {
-  background: var(--main-yellow);
-  color: var(--white);
+  background: $primary-color;
+  color: $white;
 }
 
 .subtitle {
@@ -48,7 +48,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background-color: var(--black);
+  background-color: $black;
   margin: 8px auto;
 }
 
@@ -57,7 +57,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: var(--main-yellow);
+  background-color: $primary-color;
   padding: 9px 0;
   height: 80px;
   z-index: 10;
@@ -72,7 +72,7 @@ img {
   margin-left: 20px;
 }
 .header_menu ul li a {
-  color: var(--black);
+  color: $black;
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
@@ -85,10 +85,10 @@ img {
   content: ' ';
 }
 .header_menu ul li a:hover {
-  color: var(--white);
+  color: $white;
 }
 .header_menu ul li a.menu_active {
-  color: var(--white);
+  color: $white;
 }
 
 /* INTRODUÇÃO */
@@ -99,7 +99,7 @@ img {
   background-size: cover;
   margin-top: 80px;
   text-align: center;
-  color: var(--white);
+  color: $white;
 }
 
 .intro h1, blockquote cite {
@@ -112,7 +112,7 @@ img {
 }
 .external-quote {
   text-align: center;
-  color: var(--white);
+  color: $white;
   max-width: 300px;
   margin: 0 auto;
   margin-bottom: 52px;
@@ -131,7 +131,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background-color: var(--white);
+  background-color: $white;
   margin: 14px auto 10px auto;
 }
 /* INTRODUÇÃO INTERNA */
@@ -139,7 +139,7 @@ img {
   height: 160px;
   width: 100%;
   margin-top: 80px;
-  color: var(--white);
+  color: $white;
   text-align: center;
   padding-top: 40px;
 }
@@ -154,7 +154,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background-color: var(--white);
+  background-color: $white;
   margin: 5px auto 11px auto;
 }
 
@@ -166,7 +166,7 @@ img {
   padding: 20px;
 }
 .products_list li {
-  background-color: var(--main-yellow);
+  background-color: $primary-color;
   text-align: center;
 }
 .products_list li h3 {
@@ -182,13 +182,13 @@ img {
   width: 60px;
   height: 3px;
   margin: 2px auto;
-  background-color: var(--black);
+  background-color: $black;
 }
 .products_list li p {
   padding: 10px 20px 20px 20px;
 }
 .products_list_icon {
-  background-color: var(--black);
+  background-color: $black;
   padding: 30px;
 }
 
@@ -204,14 +204,14 @@ img {
 /* PORTFÓLIO */
 .portfolio {
   width: 100%;
-  background-color: var(--black);
+  background-color: $black;
   padding: 60px 0;
 }
 .portfolio .subtitle {
-  color: var(--main-yellow);
+  color: $primary-color;
 }
 .portfolio .subtitle::after {
-  background-color: var(--main-yellow);
+  background-color: $primary-color;
 }
 
 .portfolio_items li:last-child {
@@ -219,11 +219,11 @@ img {
 }
 
 .portfolio .btn:hover {
-  color: var(--black);
+  color: $black;
 }
 
 .portfolio .call p {
-  color: var(--white);
+  color: $white;
 }
 
 /* QUALIDADE */
@@ -265,7 +265,7 @@ img {
   width: 60px;
   height: 3px;
   margin: 6px auto;
-  background-color: var(--black);
+  background-color: $black;
 }
 
 /* QUEBRA */
@@ -282,13 +282,13 @@ img {
 
 /* RODAPÉ */
 .footer-black {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: $black;
+  color: $white;
   padding: 20px 0 30px 0;
   width: 100%;
 }
 .footer-black h3 {
-  color: var(--main-yellow);
+  color: $primary-color;
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.9px;
@@ -300,7 +300,7 @@ img {
   width: 60px;
   height: 3px;
   margin: 6px 0 15px 0;
-  background-color: var(--main-yellow);
+  background-color: $primary-color;
 }
 
 .footer_history {
@@ -324,26 +324,26 @@ img {
   width: 60px;
   align-items: center;
   justify-content: center;
-  border: 3px solid var(--main-yellow);
-  color: var(--main-yellow);
+  border: 3px solid $primary-color;
+  color: $primary-color;
   padding: 10px;
   transition: all 0.3s;
 }
 .footer_social ul li a:hover{
-  color: var(--black);
-  background: var(--main-yellow);
-  border: 3px solid var(--main-yellow);
+  color: $black;
+  background: $primary-color;
+  border: 3px solid $primary-color;
 }
 
 /* COPYRIGHT */
 .copyright {
   width: 100%;
-  background-color: var(--main-yellow);
+  background-color: $primary-color;
   padding: 20px 0;
 }
 .copyright p {
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--black);
+  color: $black;
 }
 
 /* SLIDE JS */
@@ -384,7 +384,7 @@ img {
   cursor: pointer;
 }
 .js [data-slide-nav] > button.active {
-  background: var(--main-yellow);
+  background: $primary-color;
 }
 
 .js [data-anime] {

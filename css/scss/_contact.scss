@@ -4,7 +4,7 @@
 }
 
 .contact {
-  color: var(--black);
+  color: $black;
   padding: 40px 0 60px 0;
 }
 .contact_form {
@@ -19,8 +19,8 @@
 }
 .contact_form input, .contact_form textarea {
   background: none;
-  border: 3px solid var(--main-yellow);
-  color: var(--black);
+  border: 3px solid $primary-color;
+  color: $black;
   display: block;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
@@ -37,20 +37,20 @@
 }
 
 .contact_form button.btn {
-  background-color: var(--white);
+  background-color: $white;
   padding: 10px 40px;
 }
 .contact_form button.btn:hover {
-  color: var(--white);
-  background-color: var(--main-yellow);
+  color: $white;
+  background-color: $primary-color;
   cursor: pointer;
 }
 
 .contact_data {
-  color: var(--black);
+  color: $black;
 }
 .contact_data h3 {
-  color: var(--main-yellow);
+  color: $primary-color;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.9px;
@@ -85,15 +85,15 @@
   width: 60px;
   align-items: center;
   justify-content: center;
-  border: 3px solid var(--main-yellow);
-  color: var(--main-yellow);
+  border: 3px solid $primary-color;
+  color: $primary-color;
   padding: 10px;
   transition: all 0.3s;
 }
 .contact_data ul li a:hover{
-  color: var(--white);
-  background: var(--main-yellow);
-  border: 3px solid var(--main-yellow);
+  color: $white;
+  background: $primary-color;
+  border: 3px solid $primary-color;
 }
 
 .map-photo {
