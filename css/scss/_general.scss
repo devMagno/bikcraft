@@ -50,15 +50,36 @@ img {
   padding: 9px 0;
   height: 80px;
   z-index: 10;
+  @include responsive(cellphone) {
+    position: relative;
+		height: auto;
+		padding: 0;
+		padding-bottom: 10px;
+  }
+}
+.header a img {
+  @include responsive(tablet) {
+    max-width: none;
+  }
+  @include responsive(cellphone) {
+    margin: 10px auto;
+  }
 }
 
 .header_menu {
   text-align: right;
   margin-top: 21px;
+  @include responsive(cellphone) {
+    text-align: center;
+    margin: 0;
+  }
 }
 .header_menu ul li {
   display: inline;
   margin-left: 20px;
+  @include responsive(cellphone) {
+    margin: 0;
+  }
 }
 .header_menu ul li a {
   color: $black;
@@ -68,15 +89,29 @@ img {
   text-transform: uppercase;
   padding: 10px 0;
   transition: color .3s;
+  @include responsive(cellphone) {
+    display: block;
+		border: 4px solid $black;
+		width: 140px;
+		float: left;
+		margin: 3px;
+		transition: all .3s;
+  }
 }
 .header_menu ul li a:after{
   content: ' ';
 }
 .header_menu ul li a:hover {
   color: $white;
+  @include responsive(cellphone) {
+    border-color: $whitee;
+  }
 }
 .header_menu ul li a.menu_active {
   color: $white;
+  @include responsive(cellphone) {
+    border-color: $white;
+  }
 }
 
 /* INTRODUÇÃO */
@@ -88,6 +123,10 @@ img {
   margin-top: 80px;
   text-align: center;
   color: $white;
+  @include responsive(cellphone) {
+    margin-top: 0;
+		background: url(../img/bg-mobile.jpg) no-repeat center;
+  }
 }
 
 .intro h1, blockquote cite {
@@ -97,6 +136,10 @@ img {
 .intro h1{
   padding-top: 80px;
   @include type-1(48);
+  @include responsive(cellphone) {
+    padding: 20px;
+		@include type-1(36);
+  }
 }
 .external-quote {
   text-align: center;
@@ -104,6 +147,9 @@ img {
   max-width: 300px;
   margin: 0 auto;
   margin-bottom: 52px;
+  @include responsive(cellphone) {
+    margin-bottom: 60px;
+  }
 }
 .external-quote cite {
   @include type-1(14);
@@ -130,6 +176,9 @@ img {
   color: $white;
   text-align: center;
   padding-top: 40px;
+  @include responsive(cellphone) {
+    margin-top: 0;
+  }
 }
 
 .internal-intro h1 {
@@ -184,6 +233,9 @@ img {
   clear: both;
   padding-top: 40px;
   text-align: center;
+  @include responsive(cellphone) {
+    padding-top: 10px;
+  }
 }
 .call p {
   margin-bottom: 20px;
@@ -200,6 +252,11 @@ img {
 }
 .portfolio .subtitle::after {
   background-color: $primary-color;
+}
+.portfolio_items li {
+  @include responsive(cellphone) {
+	margin: 20px 0;
+  }
 }
 
 .portfolio_items li:last-child {
@@ -228,6 +285,12 @@ img {
   top: 209px;
   right: 162px;
   z-index: -1;
+  @include responsive(tablet) {
+		right: 66px;
+  }
+  @include responsive(cellphone) {
+    display: none;
+  }
 }
 .quality img {
   margin: 0 auto;
@@ -239,6 +302,13 @@ img {
 .quality_list li {
   text-align: center;
   padding: 0 40px;
+  @include responsive(tablet) {
+    padding: 0 10px;
+  }
+  @include responsive(cellphone) {
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
 }
 .quality_list li h3 {
   font-weight: bold;
@@ -314,12 +384,22 @@ img {
   color: $primary-color;
   padding: 10px;
   transition: all 0.3s;
+  @include responsive(tablet) {
+		padding: 6px;
+  }
 }
 .footer_social ul li a:hover{
   color: $black;
   background: $primary-color;
   border: 3px solid $primary-color;
 }
+.footer_social ul li a img {
+  @include responsive(tablet) {
+	  height: 26px;
+    width: 26px;
+  }
+}
+
 
 /* COPYRIGHT */
 .copyright {

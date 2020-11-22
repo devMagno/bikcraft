@@ -796,6 +796,12 @@ img {
   z-index: -1;
 }
 
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .quality::after {
+    right: 66px;
+  }
+}
+
 .quality img {
   margin: 0 auto;
 }
@@ -808,6 +814,12 @@ img {
 .quality_list li {
   text-align: center;
   padding: 0 40px;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .quality_list li {
+    padding: 0 10px;
+  }
 }
 
 .quality_list li h3 {
@@ -1372,12 +1384,6 @@ img {
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   .header a img {
     max-width: none;
-  }
-  .quality::after {
-    right: 66px;
-  }
-  .quality_list li {
-    padding: 0 10px;
   }
   .footer_social ul li a {
     padding: 6px;

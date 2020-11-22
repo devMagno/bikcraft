@@ -1,6 +1,9 @@
 .internal-portfolio {
   background: url("../img/bg-portfolio.jpg") no-repeat center;
   background-size: cover;
+  @include responsive(cellphone) {
+    background: url("../img/bg-portfolio-mobile.jpg");
+  }
 }
 
 .costumer_quote {

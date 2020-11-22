@@ -1,6 +1,9 @@
 .internal-about {
   background: url("../img/bg-sobre.jpg") no-repeat center;
   background-size: cover;
+  @include responsive(cellphone) {
+		background: url("../img/bg-sobre-mobile.jpg") no-repeat center;
+  }
 }
 
 .mission_about {
@@ -10,9 +13,17 @@
   @include type-1(18);
   margin-bottom: 1em;
   padding-right: 60px;
+  @include responsive(cellphone) {
+    padding-right: 0px;
+		@include type-1(14);
+  }
 }
 .mission_about ul li {
   @include type-2(18);
+  @include responsive(cellphone) {
+    @include type-1(14);
+		line-height: 25px;
+  }
 }
 
 .internal-subtitle {

@@ -1,6 +1,9 @@
 .internal-contact {
   background: url("../img/bg-contato.jpg") no-repeat center;
   background-size: cover;
+  @include responsive(cellphone) {
+		background: url("../img/bg-contato-mobile.jpg") no-repeat center;
+  }
 }
 
 .contact {
@@ -9,6 +12,10 @@
 }
 .contact_form {
   padding-right: 60px;
+  @include responsive(cellphone) {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
 }
 .contact_form label {
   display: block;

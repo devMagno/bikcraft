@@ -1,6 +1,9 @@
 .internal-products {
   background: url("../img/bg-produtos.jpg") no-repeat center;
   background-size: cover;
+  @include responsive(cellphone) {
+	  background: url("../img/bg-produtos-mobile.jpg") no-repeat center;
+  }
 }
 
 .products_item {
@@ -15,6 +18,14 @@
   top: -180px;
   text-align: center;
   margin-bottom: -55px;
+  @include responsive(tablet) {
+    top: -150px;
+    margin-bottom: -55px;
+  }
+  @include responsive(cellphone) {
+    top: -150px;
+    margin-bottom: -67px;
+  }
 }
 
 .products_item h2::after, .products_item h2::before {
@@ -29,6 +40,9 @@
 .product_icon {
   background: $black;
   padding: 70px 0;
+  @include responsive(tablet) {
+		padding: 41px 0;
+  }
 }
 .product_icon img {
   margin: 0 auto;
@@ -43,7 +57,19 @@
   @include type-1(18);
 	line-height: 25px;
 	height: 180px;
-	padding: 30px 30px;
+  padding: 30px 30px;
+  @include responsive(tablet) {
+    @include type-1(14);
+		height: 122px;
+		padding: 15px 20px;
+		margin-bottom: 8px;
+  }
+  @include responsive(cellphone) {
+    @include type-1(14);
+		line-height: 20px;
+		height: auto;
+		padding: 15px 20px;
+  }
 }
 
 .product_info ul li {
@@ -56,7 +82,17 @@
 	width: 229px;
 	height: 49px;
 	text-align: center;
-	padding-top: 16px;
+  padding-top: 16px;
+  @include responsive(tablet) {
+    font-size: 16px;
+		width: 181px;
+		height: 45px;
+  }
+  @include responsive(cellphone) {
+    font-size: 16px;
+		width: 149px;
+		height: 49px;
+  }
 }
 .product_info ul li:nth-child(1), .product_info ul li:nth-child(2) {
   margin-bottom: 2px;
@@ -81,6 +117,9 @@
 }
 .form {
   padding-right: 60px;
+  @include responsive(cellphone) {
+    padding-right: 0;
+  }
 }
 .form label {
   display: block;
@@ -138,6 +177,9 @@
 }
 .data ul {
   padding-right: 60px;
+  @include responsive(cellphone) {
+    padding-right: 0;
+  }
 }
 .data ul li {
   @include type-2(18);
