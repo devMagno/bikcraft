@@ -14,6 +14,8 @@ Posteriormente, durante o curso de **CSS com SASS**, foi realizada uma **engenha
 - **CSS3**
 - **JavaScript** (com os plugins [SimpleSlide](https://github.com/origamid/simple-slide), [SimpleAnime](https://github.com/origamid/simple-anime) e [SimpleForm](https://github.com/origamid/simple-form))
 - **PHP** (envio de e-mail com [SendGrid](https://sendgrid.com/))
+- **SASS**
+- **Scout App** (compilador do SASS)
 
 ---
 
