@@ -104,7 +104,7 @@ img {
 .header_menu ul li a:hover {
   color: $white;
   @include responsive(cellphone) {
-    border-color: $whitee;
+    border-color: $white;
   }
 }
 .header_menu ul li a.menu_active {
