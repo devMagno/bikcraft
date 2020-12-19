@@ -20,9 +20,9 @@ Posteriormente, durante o curso de **CSS com SASS**, foi realizada uma **engenha
 ---
 
 ## 🖥️ Demonstração
-[![Bikcraft](https://i.imgur.com/Gy5e6Tn.png "Clique para acessar o projeto")](https://devmagno.github.io/bikcraft/ "Clique para acessar o projeto")   
+[![Bikcraft](https://i.imgur.com/Gy5e6Tn.png "Clique para acessar o projeto")](https://devmagno.github.io/bikcraft/views/index.html "Clique para acessar o projeto")   
 
-Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/bikcraft/).
+Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/bikcraft/views/index.html).
 
 ---
 
